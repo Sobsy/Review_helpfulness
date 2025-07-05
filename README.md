@@ -65,27 +65,6 @@ Hand-crafted features used:
 
 ---
 
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/your-username/review-helpfulness-nlp.git
-cd review-helpfulness-nlp
-
-pip install -r requirements.txt
-```
-
----
-
-## 🧮 How to Train
-
-```python
-# Preprocess + summarize long reviews
-python summarize_reviews.py
-
-# Train the model
-python train_model.py
-```
-
 ---
 
 ## 📈 Evaluation
@@ -104,30 +83,3 @@ features = [12, 78.5, 1.0, 1, 2]  # length, readability, rating, verified, punct
 score = predict_helpfulness(text, features)
 print("Predicted helpfulness:", round(score, 3))
 ```
-
----
-
-## 🧾 Requirements
-
-- Python 3.8+
-- TensorFlow 2.x
-- Transformers (HuggingFace)
-- textstat
-- scikit-learn
-- tqdm
-
----
-
-## 🌐 Future Work
-
-- Add image features (if available)
-- Deploy as a Streamlit or Flask web app
-- Fine-tune BERT/PEGASUS jointly
-- Add interpretability (e.g., attention heatmaps)
-
----
-
-## 👤 Author
-
-**Sobhan Mishra**  
-[LinkedIn](https://www.linkedin.com/) • [GitHub](https://github.com/) • [Email](mailto:you@example.com)
